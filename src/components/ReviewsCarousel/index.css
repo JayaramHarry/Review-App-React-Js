@@ -1,0 +1,70 @@
+/* Write your code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  min-height: 100vh;
+}
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.company-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 40%;
+}
+@media screen and (min-width: 768px) {
+  .company-details-container {
+    min-width: 50%;
+  }
+}
+.user-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .user-name {
+    font-size: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}
+.details {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #171f46;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .details {
+    font-size: 25px;
+  }
+}
